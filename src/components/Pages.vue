@@ -1,6 +1,6 @@
 <script setup>
 import CloseBox from 'vue-material-design-icons/CloseBox.vue';
-import checkboxIntermediate from 'vue-material-design-icons/checkboxIntermediate.vue';
+import CheckboxIntermediateIcon from 'vue-material-design-icons/checkboxIntermediate.vue';
 import checkboxBlankOutline from 'vue-material-design-icons/checkboxBlankOutline.vue';
 
 
