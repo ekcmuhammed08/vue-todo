@@ -20,7 +20,7 @@ const props = defineProps({
     <div class="flex w-96 justify-between">
     </div>
      <div :class="`border bg-[#FAFAFA] py-6 px-4 m-4 rounded ${currentPage!='All' && 'hidden'}`">
-        <div class="flex flex-col w-96">
+        <div class="flex flex-col w-80 sm:w-96">
           <div v-for="(task, index) in list" :key="index" class="flex flex-row justify-between p-2 m-2 border bg-[#F0F0F0] hover:bg-gradient-to-r from-[#FaFaFa] from-40% to-[#41b8831a] to-90% rounded drop-shadow-[0_2px_2px_rgba(65,184,131,1)]">            
             <div class="flex w-80">
                 <label :for="`checkbox-${index}`">
@@ -38,7 +38,7 @@ const props = defineProps({
     </div>
 
       <div :class="`border bg-[#FAFAFA] py-6 px-4 m-4 rounded ${currentPage!='Completed' && 'hidden'}`">
-        <div class="flex flex-col w-96">
+        <div class="flex flex-col w-80 sm:w-96">
           <div v-for="(task, index) in list" :key="index" >
             <div v-if="task.isChecked" class="flex flex-row justify-between p-2 m-2 border bg-[#F0F0F0] hover:bg-gradient-to-r from-[#FaFaFa] from-40% to-[#41b8831a] to-90% rounded drop-shadow-[0_2px_2px_rgba(65,184,131,1)]">
               <div class="flex w-80">
@@ -58,7 +58,7 @@ const props = defineProps({
       </div>
 
       <div :class="`border bg-[#FAFAFA] py-6 px-4 m-4 rounded ${currentPage!='Active' && 'hidden'}`">
-        <div class="flex flex-col w-96">
+        <div class="flex flex-col w-80 sm:w-96">
           <div v-for="(task, index) in list" :key="index">
             <div v-if="!task.isChecked" class="flex flex-row justify-between p-2 m-2 border bg-[#F0F0F0] hover:bg-gradient-to-r from-[#FaFaFa] from-40% to-[#41b8831a] to-90% rounded drop-shadow-[0_2px_2px_rgba(65,184,131,1)]">
               <div class="flex w-80">

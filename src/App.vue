@@ -35,8 +35,8 @@ const handlePage = (page)=>{
 </script>
 
 <template>
-  <div class="flex flex-col">
-    <header class="flex justify-center my-8">
+  <div class="flex flex-col mx-4">
+    <header class="flex justify-center py-8">
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
     <div class="wrapper">
       <HelloWorld msg="You did it!" />

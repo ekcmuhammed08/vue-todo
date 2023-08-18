@@ -13,9 +13,9 @@ defineEmits(['update:modelValue'])
 </script>
 
 <template>
-      <div class="flex w-96">
+      <div class="flex w-80 sm:w-96">
         <input 
-        class="h-12 w-96 pl-4 pr-10 rounded border-2 border-transparent focus:border-green-300 outline-none drop-shadow-[0_2px_2px_rgba(65,184,131,1)]"
+        class="h-12 w-80 sm:w-96 pl-4 pr-10 rounded border-2 border-transparent focus:border-green-300 outline-none drop-shadow-[0_2px_2px_rgba(65,184,131,1)]"
         :value="modelValue"
         @input="$emit('update:modelValue', $event.target.value)"
         placeholder="Enter a new item" />
