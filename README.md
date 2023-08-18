@@ -1,35 +1,13 @@
-# vue-demo
+# vue-todo 📝
 
-This template should help get you started developing with Vue 3 in Vite.
+ ## simple Todo App built using Vue.js and styled using Tailwind CSS.
 
-## Recommended IDE Setup
+![image](https://github.com/ekcmuhammed08/react-todo/assets/102401307/643fc02e-8d92-43db-be0b-1f0cfe5c3148)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
+ :electron: **Features:**
+ ***
+1. ➕ Add todos
+2. ✅ Check todos
+3. 🗑️ Delete todos
+4. 📋 View All-Active-Completed todos
