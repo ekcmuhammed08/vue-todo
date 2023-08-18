@@ -1,5 +1,5 @@
 <script setup>
-import PlusBox from 'vue-material-design-icons/plusBox.vue';
+import PlusBox from 'vue-material-design-icons/PlusBox.vue';
 
 const props = defineProps({
   newTask:String,
