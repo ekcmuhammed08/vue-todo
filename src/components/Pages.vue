@@ -1,7 +1,7 @@
 <script setup>
 import CloseBox from 'vue-material-design-icons/CloseBox.vue';
-import CheckboxIntermediate from 'vue-material-design-icons/checkboxIntermediate.vue';
-import CheckboxBlankOutline from 'vue-material-design-icons/checkboxBlankOutline.vue';
+import checkboxIntermediate from 'vue-material-design-icons/checkboxIntermediate.vue';
+import checkboxBlankOutline from 'vue-material-design-icons/checkboxBlankOutline.vue';
 
 
 const props = defineProps({
