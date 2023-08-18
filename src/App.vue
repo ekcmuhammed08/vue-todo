@@ -35,21 +35,23 @@ const handlePage = (page)=>{
 </script>
 
 <template>
-  <header class="flex justify-center my-8">
+  <div class="flex flex-col">
+    <header class="flex justify-center my-8">
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
     </div>
-  </header>
-  <body>
-    <div class="flex flex-col items-center">
-    <Input :addTask="addTask"   
-     :modelValue="newTask"
-     @update:modelValue="newValue => newTask = newValue"/>
-    <Pages :currentPage="currentPage" :list="list" :checkTask="checkTask" :removeTask="removeTask"/>
-    <SwitchPage :currentPage="currentPage" :handlePage="handlePage"/>
-    </div>
-  </body>
+    </header>
+    <body>
+      <div class="flex flex-col items-center">
+      <Input :addTask="addTask"   
+      :modelValue="newTask"
+      @update:modelValue="newValue => newTask = newValue"/>
+      <Pages :currentPage="currentPage" :list="list" :checkTask="checkTask" :removeTask="removeTask"/>
+      <SwitchPage :currentPage="currentPage" :handlePage="handlePage"/>
+      </div>
+    </body>
+  </div>
 </template>
 
 
