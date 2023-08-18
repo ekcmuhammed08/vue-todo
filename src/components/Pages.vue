@@ -31,7 +31,7 @@ const props = defineProps({
                 <p :class="`pl-3 pb-1 w-full ${task.isChecked?'line-through':''}`" style="overflow-wrap: anywhere;">{{ task.task }}</p>
             </div>
             <div class="">
-              <button @click="removeTask(index)" class=" h-full w-full drop-shadow-[0_0_3px_rgba(65,184,131,1)] hover:drop-shadow-[0_0_6px_rgba(65,184,131,1)]"><close-box style="color: #34495E;" size="24px" /> </button>
+              <button @click="removeTask(index)" class=" h-full w-full drop-shadow-[0_0_2px_rgba(65,184,131,1)] hover:drop-shadow-[0_0_6px_rgba(65,184,131,1)]"><close-box style="color: #34495E;" size="24px" /> </button>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ const props = defineProps({
                 </label>
                 <p :class="`pl-3 pb-1 ${task.isChecked?'line-through':''}`" style="overflow-wrap: anywhere;">{{ task.task }}</p>
               </div>
-              <button @click="removeTask(index)"><close-box style="color: #34495E;" size="24px"/> </button>
+              <button @click="removeTask(index)" class=" h-full w-full drop-shadow-[0_0_2px_rgba(65,184,131,1)] hover:drop-shadow-[0_0_6px_rgba(65,184,131,1)]"><close-box style="color: #34495E;" size="24px"/> </button>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ const props = defineProps({
                 </label>
                 <p :class="`pl-3 pb-1 ${task.isChecked?'line-through':''}`" style="overflow-wrap: anywhere;">{{ task.task }}</p>
               </div>
-              <button @click="removeTask(index)"><close-box style="color: #34495E;" size="24px"/> </button>
+              <button @click="removeTask(index)" class=" h-full w-full drop-shadow-[0_0_2px_rgba(65,184,131,1)] hover:drop-shadow-[0_0_6px_rgba(65,184,131,1)]"><close-box style="color: #34495E;" size="24px"/> </button>
             </div>
           </div>
         </div>
